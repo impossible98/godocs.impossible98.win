@@ -123,6 +123,15 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'RUJ257L27O',
+
+        // Public API key: it is safe to commit it
+        apiKey: 'a060aacd4948dee1e033559741ae1a21',
+
+        indexName: 'godocs',
+      },
     }),
 };
 
